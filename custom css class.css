@@ -1,0 +1,15 @@
+/*Full width preview: fullwidth*/
+:is(.markdown-preview-view,.markdown-rendered).fullwidth.is-readable-line-width .markdown-preview-sizer,
+.markdown-source-view.is-readable-line-width.fullwidth .CodeMirror,
+.is-readable-line-width.fullwidth :is(.markdown-preview-section,.markdown-rendered),
+.is-readable-line-width.fullwidth :is(.markdown-preview-section,.markdown-rendered) > div,
+:is(.markdown-preview-view,.markdown-rendered).is-readable-line-width.fullwidth :is(.markdown-preview-section,.markdown-rendered) {
+  width: 100% !important;
+  max-width: 100% !important;
+  /* margin: 0 auto; */
+}
+
+/*Hide scrollbar: noscroll*/
+:is(.markdown-preview-view,.markdown-rendered).noscroll::-webkit-scrollbar {
+  display: none;
+}

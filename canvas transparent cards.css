@@ -1,0 +1,13 @@
+.canvas-wrapper .canvas-node.is-themed.mod-canvas-color-6 .canvas-node-container {
+    background-color: transparent;
+    border: 2px solid transparent; /*Change this if you want to have border*/
+}
+
+.mod-canvas-color-6 {
+    --canvas-color: transparent;
+}
+
+/*Hide file name*/
+.canvas-node.is-themed.mod-canvas-color-6 .canvas-node-label {
+    display: none;
+}

@@ -1,0 +1,10 @@
+div[data-path$='_source_'], 
+div[data-path$='_source_'] + div.nav-folder-children 
+{
+	display: none;
+}
+div[data-path$='_template_'], 
+div[data-path$='_template_'] + div.nav-folder-children 
+{
+	display: none;
+}
